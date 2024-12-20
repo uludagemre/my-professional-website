@@ -50,7 +50,7 @@ function Experience() {
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        <p className="text-xs sm:text-sm text-[#FFB74D]">
                           {experience.duration}
                         </p>
                       </div>
@@ -59,11 +59,14 @@ function Experience() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-base sm:text-xl mb-2 font-medium">
                             {experience.title}
                           </p>
                           <p className="text-sm sm:text-base">
                             {experience.company}
+                          </p>
+                          <p className="text-sm sm:text-base">
+                            {experience.description}
                           </p>
                         </div>
                       </div>

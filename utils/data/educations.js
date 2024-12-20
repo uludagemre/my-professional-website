@@ -1,20 +1,21 @@
 export const educations = [
+,
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Masters Degree in Computer Science",
+    duration: "2021 - 2022",
+    institution: "Technical University of Munich",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelors Degree in Computer Science, DM in Economics",
+    duration: "2014 - 2019",
+    institution: "Koc University Istanbul",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "High School Degree/Abitur",
+    duration: "2009 - 2014",
+    institution: "Istanbul Gymnasium",
   }
 ]
