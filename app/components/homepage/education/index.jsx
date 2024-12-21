@@ -1,10 +1,8 @@
 // @flow strict
 import { educations } from "@/utils/data/educations";
 import Image from "next/image";
-import { BsPersonWorkspace } from "react-icons/bs";
-import lottieFile from '../../../assets/lottie/study.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import {educationImage} from "@/utils/education-image";
 
 function Education() {
   return (
@@ -60,7 +58,13 @@ function Education() {
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                           <Image
+                              src={educationImage(education.image)?.src}
+                              alt={education.image}
+                              width={40}
+                              height={40}
+                              className="h-15 w-15 rounded-lg"
+                            />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium">

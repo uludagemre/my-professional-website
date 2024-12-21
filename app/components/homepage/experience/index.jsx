@@ -59,7 +59,7 @@ function Experience() {
                               alt={experience.image}
                               width={40}
                               height={40}
-                              className="h-20 w-20 rounded-lg"
+                              className="h-15 w-15 rounded-lg"
                             />
                         </div>
                         <div>

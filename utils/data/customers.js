@@ -1,5 +1,5 @@
 export const customersData = [
-  'VW',
+  'Volkswagen',
   'BMW',
   'Audi',
   'Siemens',

@@ -4,7 +4,7 @@ export const experiences = [
     title: 'IT Consultant',
     company: "Data Reply DE GmbH.",
     duration: "(Jan 2024 - Present)",
-    description: "TEST",
+    description: "AWS, Azure, Confluent, Dbt, Python, SQL, Terraform, Docker, Kubernetes, MQTT, Grafana, Kafka, Airflow, Snowflake, Neo4J",
     image: "data"
   },
   {
@@ -12,7 +12,7 @@ export const experiences = [
     title: "Senior Data Engineer",
     company: "Scalable Capital",
     duration: "(May 2023 - November 2023)",
-    description: "TEST",
+    description: "Python, SQL, Terraform, AWS Athena, AWS DMS, AWS DynamoDB, AWS Step Functions",
     image: "scalable"
   },
   {
