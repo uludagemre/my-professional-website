@@ -25,9 +25,9 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-red-700">{personalData.name}</span>
+            <span className=" text-red-600">{personalData.name}</span>
             {` , I'm an Entrepreneur `}
-            <span className=" text-[#FFB74D]">{personalData.designation}</span>
+            <span className=" text-orange-400">{personalData.designation}</span>
             .
           </h1>
 
@@ -35,35 +35,35 @@ function HeroSection() {
             <Link
               href={personalData.github}
               target='_blank'
-              className="transition-all text-red-700 hover:scale-125 duration-300"
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
-              className="transition-all text-red-700 hover:scale-125 duration-300"
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
               href={personalData.facebook}
               target='_blank'
-              className="transition-all text-red-700 hover:scale-125 duration-300"
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </Link>
             <Link
               href={personalData.leetcode}
               target='_blank'
-              className="transition-all text-red-700 hover:scale-125 duration-300"
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
             </Link>
             <Link
               href={personalData.twitter}
               target='_blank'
-              className="transition-all text-red-700 hover:scale-125 duration-300"
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
             </Link>
@@ -146,26 +146,26 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
-                <span className="text-orange-400">true</span>
+                <span className="text-orange-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">motivated:</span>
-                <span className="text-orange-400">true</span>
+                <span className="text-orange-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
-                <span className="text-orange-400">true</span>
+                <span className="text-orange-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">openToNewProjectIdeas:</span>
-                <span className="text-orange-400">true</span>
+                <span className="text-orange-400">True</span>
                 <span className="text-gray-400">,</span>
               </div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-              <div><span className="text-gray-400">{`};`}</span></div>
+              <div><span className="ml-4 lg:ml-8 text-gray-400">{`}`}</span></div>
+              <div><span className="text-gray-400">{`}`}</span></div>
             </code>
           </div>
         </div>

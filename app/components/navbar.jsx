@@ -9,7 +9,7 @@ function Navbar() {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#FFB74D] text-3xl font-bold">
+            className=" text-orange-400 text-3xl font-bold">
             About Me
           </Link>
         </div>

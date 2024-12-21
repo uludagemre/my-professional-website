@@ -2,10 +2,8 @@
 
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
-import { BsPersonWorkspace } from "react-icons/bs";
-import experience from '../../../assets/lottie/code.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import {experienceImage} from "@/utils/experience-image";
 
 function Experience() {
   return (
@@ -56,16 +54,22 @@ function Experience() {
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
                         <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                          <Image
+                              src={experienceImage(experience.image)?.src}
+                              alt={experience.image}
+                              width={40}
+                              height={40}
+                              className="h-20 w-20 rounded-lg"
+                            />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium">
                             {experience.title}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm sm:text-lg">
                             {experience.company}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm sm:text-sm">
                             {experience.description}
                           </p>
                         </div>

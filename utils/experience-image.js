@@ -3,9 +3,10 @@ import scalable from '../app/assets/svg/experience/companies/scalable.jpg';
 import adastra from '../app/assets/svg/experience/companies/adastra.jpg';
 import vngrs from '../app/assets/svg/experience/companies/vngrs.jpg';
 import insider from '../app/assets/svg/experience/companies/insider.webp';
+import goksal from '../app/assets/svg/experience/companies/goksal.jpeg';
 
 
-export const customerImage = (customer) => {
+export const experienceImage = (customer) => {
     const customerID = customer.toLowerCase();
     switch (customerID) {
         case 'data':
@@ -18,6 +19,8 @@ export const customerImage = (customer) => {
             return vngrs;
         case 'insider':
             return insider;
+        case 'goksal':
+            return goksal;
         default:
             break;
     }

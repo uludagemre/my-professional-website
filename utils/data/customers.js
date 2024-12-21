@@ -1,5 +1,12 @@
 export const customersData = [
   'VW',
+  'BMW',
+  'Audi',
+  'Siemens',
+  'Arcelik',
+  'ComeOn',
+  'Scalable',
+  'Insider',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

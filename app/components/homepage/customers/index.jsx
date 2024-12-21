@@ -20,7 +20,7 @@ function Customers() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Customers
+            References
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -46,7 +46,7 @@ function Customers() {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
-                  <div className="h-8 sm:h-10">
+                  <div className="h-7 sm:h-10">
                     <Image
                       src={customerImage(customer)?.src}
                       alt={customer}
