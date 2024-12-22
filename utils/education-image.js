@@ -1,5 +1,5 @@
 import tum from '../app/assets/svg/education/institutions/tum.png';
-import koc from '../app/assets/svg/education/institutions/koc.jpg';
+import koc from '../app/assets/svg/education/institutions/koc.png';
 import iel from '../app/assets/svg/education/institutions/iel.png';
 
 

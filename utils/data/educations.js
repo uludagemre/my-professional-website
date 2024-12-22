@@ -9,7 +9,7 @@ export const educations = [
   },
   {
     id: 2,
-    title: "Bachelors Degree in Computer Science, DM in Economics",
+    title: "Bachelors Degree in Computer Science",
     duration: "2014 - 2019",
     institution: "Koc University",
     image: "koc",
