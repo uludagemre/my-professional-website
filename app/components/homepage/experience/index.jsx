@@ -69,9 +69,6 @@ function Experience() {
                           <p className="text-sm sm:text-lg">
                             {experience.company}
                           </p>
-                          <p className="text-sm sm:text-sm">
-                            {experience.description}
-                          </p>
                         </div>
                       </div>
                     </div>
