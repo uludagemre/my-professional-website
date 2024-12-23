@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode, SiFiverr } from "react-icons/si";
+import { SiLeetcode, SiFiverr, SiMedium } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -80,6 +80,13 @@ function HeroSection() {
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <SiFiverr size={30} />
+            </Link>
+            <Link
+              href={personalData.medium}
+              target='_blank'
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
+            >
+              <SiMedium size={30} />
             </Link>
           </div>
 
