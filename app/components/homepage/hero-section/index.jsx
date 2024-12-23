@@ -26,7 +26,7 @@ function HeroSection() {
             Hello, <br />
             This is {' '}
             <span className=" text-red-500">{personalData.name}</span>
-            {` , I'm an Entrepreneur `}
+            {` , I'm an experienced `}
             <span className=" text-orange-500">{personalData.designation}</span>
             .
           </h1>
@@ -37,56 +37,56 @@ function HeroSection() {
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <BsGithub size={30} />
+              <BsGithub size={20} />
             </Link>
             <Link
               href={personalData.linkedIn}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <BsLinkedin size={30} />
+              <BsLinkedin size={20} />
             </Link>
             <Link
               href={personalData.facebook}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <FaFacebook size={30} />
+              <FaFacebook size={20} />
             </Link>
             <Link
               href={personalData.leetcode}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <SiLeetcode size={30} />
+              <SiLeetcode size={20} />
             </Link>
             <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <FaTwitterSquare size={30} />
+              <FaTwitterSquare size={20} />
             </Link>
             <Link
               href={personalData.youtube}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <FaYoutube size={30} />
+              <FaYoutube size={20} />
             </Link>
             <Link
               href={personalData.fiverr}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <SiFiverr size={30} />
+              <SiFiverr size={20} />
             </Link>
             <Link
               href={personalData.medium}
               target='_blank'
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
-              <SiMedium size={30} />
+              <SiMedium size={20} />
             </Link>
           </div>
 
