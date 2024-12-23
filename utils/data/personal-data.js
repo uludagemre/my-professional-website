@@ -2,7 +2,7 @@ export const personalData = {
   name: "Emre Uludag",
   profile: '/profile.jpg',
   designation: "Data Engineer",
-  description: "My name is Emre Uludag. I am an enthusiastic Data Engineer in my professional life. I am specialized in data engineering but also have a lot of backend engineering experience. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. My core skills are based on Big Data Technologies and I love to do most of the things using Python, Scala and Cloud. I am available for any kind of project opportunity that suits my skills and interests.",
+  description: "My name is Emre Uludag, and I am an enthusiastic Data Engineer with a robust background in backend engineering. I am a fast learner with a self-directed attitude, passionate about exploring new technologies and solving complex problems. My core skills lie in Big Data Technologies, and I specialize in using Python, Scala, SQL, and Terraform, with a particular interest in cloud environments. I firmly believe that the cloud represents the future of the IT world. Additionally, I am always eager to take on new challenges that align with my skills and interests.",
   email: 'uludag.emre.tr@gmail.com',
   address: 'Schwabing West, Munich, Germany',
   github: 'https://github.com/uludagemre',
