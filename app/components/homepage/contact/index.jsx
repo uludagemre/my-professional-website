@@ -3,11 +3,9 @@ import { personalData } from '@/utils/data/personal-data';
 import Link from 'next/link';
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFacebook, FaStackOverflow, FaYoutube, FaMedium } from 'react-icons/fa';
+import { FaFacebook, FaStackOverflow, FaYoutube } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub,  } from "react-icons/io";
-import { MdAlternateEmail } from "react-icons/md";
-import ContactForm from './contact-form';
 
 function ContactSection() {
   return (
@@ -65,12 +63,6 @@ function ContactSection() {
             </Link>
             <Link target="_blank" href={personalData.youtube}>
               <FaYoutube
-                className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={30}
-              />
-            </Link>
-            <Link target="_blank" href={personalData.medium}>
-              <FaMedium
                 className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={30}
               />
