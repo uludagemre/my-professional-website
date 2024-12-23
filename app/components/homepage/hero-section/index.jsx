@@ -5,9 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import {BsGithub, BsLinkedin} from "react-icons/bs";
 import {FaFacebook, FaTwitterSquare, FaYoutube} from "react-icons/fa";
-import {MdAlternateEmail, MdDownload} from "react-icons/md";
-import {RiContactsFill} from "react-icons/ri";
-import {SiLeetcode, SiFiverr, SiMedium} from "react-icons/si";
+import {MdDownload} from "react-icons/md";
+import {SiLeetcode, SiFiverr, SiMedium, SiGmail} from "react-icons/si";
+
+const mailToLink = `mailto:${personalData.email}`;
+
 
 function HeroSection() {
     return (
@@ -106,10 +108,16 @@ function HeroSection() {
                             <MdDownload size={16}/>
                         </Link>
                         <p className="text-sm md:text-xl flex items-center gap-3">
-                            <MdAlternateEmail
+                                                   <Link
+                            href={mailToLink}
+                            target='_blank'
+                            className="transition-all text-orange-400 hover:scale-125 duration-300"
+                        >
+                            <SiGmail
                                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                                 size={36}
                             />
+                            </Link>
                             <span>{personalData.email}</span>
                         </p>
 
