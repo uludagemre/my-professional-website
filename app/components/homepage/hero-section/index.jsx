@@ -7,7 +7,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiFiverr } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -73,6 +73,13 @@ function HeroSection() {
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <FaYoutube size={30} />
+            </Link>
+            <Link
+              href={personalData.fiverr}
+              target='_blank'
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
+            >
+              <SiFiverr size={30} />
             </Link>
           </div>
 
@@ -164,6 +171,16 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">number_of_years_it_experience:</span>
                 <span className="text-orange-400">6</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">current_occupation:</span>
+                <span className="text-orange-400">DataReplyDE</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">title:</span>
+                <span className="text-orange-400">DataEngineeringConsultant</span>
                 <span className="text-gray-400">,</span>
               </div>
               <div>

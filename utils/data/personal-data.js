@@ -8,6 +8,7 @@ export const personalData = {
   github: 'https://github.com/uludagemre',
   facebook: 'https://www.facebook.com/emre.uludag.9699',
   youtube: 'https://www.youtube.com/@elite-data',
+  fiverr: 'https://de.fiverr.com/emre_uludag',
   linkedIn: 'https://www.linkedin.com/in/emre-uludag-050a3a103/',
   twitter: 'https://x.com/EmreUlu92573039',
   stackOverflow: 'https://stackoverflow.com/users/8152493/emre-uluda%c4%9f?tab=profile',
