@@ -7,10 +7,10 @@ export const personalData = {
   address: 'Schwabing West, Munich, Germany',
   github: 'https://github.com/uludagemre',
   facebook: 'https://www.facebook.com/emre.uludag.9699',
+  youtube: 'https://www.youtube.com/@elite-data',
   linkedIn: 'https://www.linkedin.com/in/emre-uludag-050a3a103/',
   twitter: 'https://x.com/EmreUlu92573039',
   stackOverflow: 'https://stackoverflow.com/users/8152493/emre-uluda%c4%9f?tab=profile',
   leetcode: "https://leetcode.com/u/user7112jZ/",
-  devUsername: "said7388",
   resume: "https://drive.google.com/file/d/1zQXMPlhIuJaZ8RiKzM3DiXHqgXCPx0Ji/view?usp=sharing"
 }

@@ -4,7 +4,7 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
@@ -66,6 +66,13 @@ function HeroSection() {
               className="transition-all text-orange-400 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
+            </Link>
+            <Link
+              href={personalData.youtube}
+              target='_blank'
+              className="transition-all text-orange-400 hover:scale-125 duration-300"
+            >
+              <FaYoutube size={30} />
             </Link>
           </div>
 
@@ -143,6 +150,21 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Kubernetes</span>
                 <span className="text-gray-400">{"'],"}</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">location:</span>
+                <span className="text-orange-400">Munich</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">data_engineer_since:</span>
+                <span className="text-orange-400">2020</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">number_of_years_it_experience:</span>
+                <span className="text-orange-400">6</span>
+                <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hard_worker:</span>
