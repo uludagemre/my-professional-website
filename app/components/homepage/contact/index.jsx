@@ -22,7 +22,7 @@ function ContactSection() {
         {/*<ContactForm />*/}
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
-            <p className="text-sm md:text-xl flex items-center gap-3">
+            <p className="text-sm md:text-xl flex items-center gap-2">
               <CiLocationOn
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
@@ -35,44 +35,44 @@ function ContactSection() {
           <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
             <Link target="_blank" href={personalData.github}>
               <IoLogoGithub
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.linkedIn}>
               <BiLogoLinkedin
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.twitter}>
               <FaXTwitter
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.stackOverflow}>
               <FaStackOverflow
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.facebook}>
               <FaFacebook
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.youtube}>
               <FaYoutube
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
             <Link target="_blank" href={personalData.medium}>
               <FaMedium
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
+                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#FFB74D] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={36}
               />
             </Link>
           </div>
