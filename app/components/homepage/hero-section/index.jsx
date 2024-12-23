@@ -77,13 +77,13 @@ function HeroSection() {
                         >
                             <FaYoutube size={20}/>
                         </Link>
-                        <Link
-                            href={personalData.fiverr}
-                            target='_blank'
-                            className="transition-all text-orange-400 hover:scale-125 duration-300"
-                        >
-                            <SiFiverr size={20}/>
-                        </Link>
+                        {/*<Link*/}
+                        {/*    href={personalData.fiverr}*/}
+                        {/*    target='_blank'*/}
+                        {/*    className="transition-all text-orange-400 hover:scale-125 duration-300"*/}
+                        {/*>*/}
+                        {/*    <SiFiverr size={20}/>*/}
+                        {/*</Link>*/}
                         <Link
                             href={personalData.medium}
                             target='_blank'
