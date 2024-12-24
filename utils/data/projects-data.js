@@ -37,7 +37,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        name: 'Automotive Data Processing and Dashboarding',
+        name: 'Automotive Data Analytics',
         description: "At Adastra, I worked on a project for major automotive clients, Volkswagen and Audi. The goal was to process data from the S3 raw layer using AWS Glue, transforming it into various layers and ultimately loading it into Redshift. I then created dashboards using Tableau. Additionally, I developed a file uploader backend using AWS Lambda and API Gateway to bring data into the raw layer. I used AWS Step Functions for orchestration and implemented numerous Terraform modules, which I also contributed to on GitHub. This project significantly improved data processing and visualization capabilities for the clients.",
         tools: ['AWS Glue', 'S3', 'Redshift', 'Tableau', 'AWS Lambda', 'API Gateway', 'AWS Step Functions', 'Terraform'],
         role: 'DataEngineer',
@@ -46,7 +46,7 @@ export const projectsData = [
     },
     {
         id: 5,
-        name: "Streaming Data Processing Online Betting",
+        name: "Streaming Data Processing - Betting",
         description: "At VNGRS, I worked on a streaming data transformation and anomaly detection project for an online betting client. The project utilized AWS Kinesis Data Analytics and Apache Flink for real-time processing, with DynamoDB managing intermediate states and DynamoDB Streams capturing real-time updates. Data sources included an on-premise Kafka cluster and AWS DMS with change data capture, and the pipeline sank into Kinesis Data Firehose. Terraform handled infrastructure provisioning, GitLab CI/CD ensured continuous delivery, and the primary programming language was Scala.",
         tools: ["Scala", "AWS Kinesis Data Analytics", "AWS Kinesis Data Firehose", "Apache Flink", "Kafka", "AWS Athena", "AWS DMS", "DynamoDB/DynamoDB Streams", "Terraform", "GitLab CI/CD"],
         role: "SoftwareDataEngineer",
@@ -55,7 +55,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        name: "Product Feed ETL Pipeline for Insider",
+        name: "Insider Product Feed ETL Pipeline",
         description: "At Insider, I worked on a Product Feed ETL pipeline where source data was transformed into semantic layers and fed into Elasticsearch for both the recommendation system and Product Feed API. The pipeline utilized AWS Lambda and AWS Kinesis as the data source. Additionally, I developed an API using Scala and the Akka framework to serve the source data.",
         tools: ["Scala", "Akka", "AWS Lambda", "AWS Kinesis", "Elasticsearch", "JavaScript", "Python"],
         role: "BigDataSoftwareEngineer",
