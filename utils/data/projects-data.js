@@ -43,7 +43,26 @@ export const projectsData = [
         role: 'DataEngineer',
         code: '',
         demo: '',
+    },
+    {
+        id: 5,
+        name: "Streaming Data Processing Online Betting",
+        description: "At VNGRS, I worked on a streaming data transformation and anomaly detection project for an online betting client. The project utilized AWS Kinesis Data Analytics and Apache Flink for real-time processing, with DynamoDB managing intermediate states and DynamoDB Streams capturing real-time updates. Data sources included an on-premise Kafka cluster and AWS DMS with change data capture, and the pipeline sank into Kinesis Data Firehose. Terraform handled infrastructure provisioning, GitLab CI/CD ensured continuous delivery, and the primary programming language was Scala.",
+        tools: ["Scala", "AWS Kinesis Data Analytics", "AWS Kinesis Data Firehose", "Apache Flink", "Kafka", "AWS Athena", "AWS DMS", "DynamoDB/DynamoDB Streams", "Terraform", "GitLab CI/CD"],
+        role: "SoftwareDataEngineer",
+        code: "",
+        demo: ""
+    },
+    {
+        id: 6,
+        name: "Product Feed ETL Pipeline for Insider",
+        description: "At Insider, I worked on a Product Feed ETL pipeline where source data was transformed into semantic layers and fed into Elasticsearch for both the recommendation system and Product Feed API. The pipeline utilized AWS Lambda and AWS Kinesis as the data source. Additionally, I developed an API using Scala and the Akka framework to serve the source data.",
+        tools: ["Scala", "Akka", "AWS Lambda", "AWS Kinesis", "Elasticsearch", "JavaScript", "Python"],
+        role: "BigDataSoftwareEngineer",
+        code: "",
+        demo: ""
     }
+
 ];
 
 
