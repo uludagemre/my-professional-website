@@ -8,9 +8,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Emre Uludag - Data Engineer",
+  title: "Portfolio of Emre Uludag - Data Architect",
   description:
-    "This is the portfolio of Emre Uludag. I am a data engineer, software engineer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Emre Uludag. I am a data architect, software engineer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {
