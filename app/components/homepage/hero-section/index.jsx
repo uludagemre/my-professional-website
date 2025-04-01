@@ -31,7 +31,7 @@ function HeroSection() {
                         <span className=" text-red-500">{personalData.name}</span>
                         {`, I'm an experienced `}
                         <span className=" text-orange-500">{personalData.designation}</span>
-                        .
+                        {` and a`}<span className=" text-red-500"> Solo Entrepreneur </span> {`who builds internet SaaS`}.
                     </h1>
 
                     <div className="my-12 flex items-center gap-5">
