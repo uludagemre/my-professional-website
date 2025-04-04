@@ -2,7 +2,7 @@ export const personalData = {
   name: "Emre Uludag",
   profile: '/ghibli.jpg',
   designation: "Data Architect",
-  description: "Being a Data Architect & Entrepreneur, I am quite passionate about building scalable software solutions with expertise in Big Data technologies (Python, Scala), Cloud Architecture with Terraform, and efficient backend engineering - constantly exploring new opportunities at the intersection of technology and business",
+  description: "As a Data Architect and Entrepreneur, I focus on building scalable and high-impact software solutions. Beyond my technical expertise, I am passionate about sharing insights through my tech blog, where I explore topics at the intersection of data, cloud, and business. I am actively growing my audience and engaging with a broader community to exchange ideas and drive innovation. My vision is to build multiple SaaS products that heavily leverage AI and data.",
   email: 'uludag.emre.tr@gmail.com',
   address: 'Schwabing West, Munich, Germany',
   github: 'https://github.com/uludagemre',
